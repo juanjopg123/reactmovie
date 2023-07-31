@@ -1,0 +1,32 @@
+.trendign {
+    margin-top: 50px;
+}
+.trendign h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .trendign h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+    .trendign {
+        position: relative;
+        height: 60vh !important;
+    }
+    .trendign .coverImage img {
+        width: 100vw;
+        height: 70vh !important;
+    }
+    .trendign .content {
+        flex-direction: column;
+        padding: 50px;
+    }
+    .trendign .row {
+        width: 100%;
+    }
+    .trendign .playButton {
+        display: none;
+    }
+}
